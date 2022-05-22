@@ -5,7 +5,7 @@
 // check out the link below and learn how to write your first test:
 // https://on.cypress.io/writing-first-test
 
-describe('PASSWORD PROTECTED', () => {
+describe('CHECK CORRECTLY PASSWORD PROTECTED TO THE WHOLE PAGE', () => {
     it('test', () => {
       cy.visit('http://text.local/wp-login.php?redirect_to=http%3A%2F%2Ftext.local%2Fwp-admin%2Fedit.php%3Fpost_type%3Dpage&reauth=1')
 
